@@ -26,7 +26,7 @@ const 8ball = (userQuestion) => {
             break;
         case 2:
             reply = Math.floor((Math.random() * 5));
-            console.log(phrasesTryAgain);
+            console.log(phrasesTryAgain[reply]);
             break;
         //selects yes, no, or try by randomly assign a number from 0-2, then selects a random phrase and reply if any by same method.
     }
